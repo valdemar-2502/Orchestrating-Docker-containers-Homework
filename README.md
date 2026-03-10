@@ -50,7 +50,7 @@ https://hub.docker.com/r/devops2502/custom-nginx
 
 ---
 #### Ответ:
-![docker](https://github.com/valdemar-2502/Replication-and-scaling-Homework/blob/main/Screenshots/install.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task2-docker.png)
 
 
 ## Задача 3
