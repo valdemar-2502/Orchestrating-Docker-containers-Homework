@@ -71,17 +71,18 @@ https://hub.docker.com/r/devops2502/custom-nginx
 
 ---
 #### Ответ:
-![docker](https://github.com/valdemar-2502/Replication-and-scaling-Homework/blob/main/Screenshots/install.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task3-docker.png)
 #### Объяснение почему контейнер остановился:
 Контейнер остановился потому, что docker attach подключается к основному процессу контейнера (PID 1), которым в случае Nginx является сам процесс nginx. Когда мы нажали Ctrl-C, сигнал был передан этому процессу, что привело к его завершению. Так как основной процесс завершился, контейнер остановился. Nginx был запущен в режиме переднего плана (foreground), поэтому получение сигнала SIGINT (Ctrl-C) завершает его работу.
 
-
-
-
-
-
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task3-docker2.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task3-docker3.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task3-docker4.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task3-docker5.png)
 #### Объяснение проблемы:
 При запуске контейнера мы пробросили порт 127.0.0.1:8080 на порт 80 контейнера (-p 127.0.0.1:8080:80). После изменения конфигурации nginx внутри контейнера, он теперь слушает порт 81, а не 80. Однако проброс портов настраивается при запуске контейнера и не может быть изменен без его пересоздания. Docker продолжает направлять трафик с порта 8080 хоста на порт 80 контейнера, но nginx больше не слушает этот порт, поэтому соединение отклоняется.
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task3-docker6_dop.png)
+
 ## Задача 4
 
 
