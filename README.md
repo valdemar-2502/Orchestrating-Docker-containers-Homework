@@ -95,6 +95,11 @@ https://hub.docker.com/r/devops2502/custom-nginx
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
+---
+#### Ответ:
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task4-docker.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task4-docker1.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task4-docker2.png)
 
 ## Задача 5
 
