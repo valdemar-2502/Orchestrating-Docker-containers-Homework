@@ -30,7 +30,11 @@ Hey, Netology
 - Предоставьте ответ в виде ссылки на https://hub.docker.com/<username_repo>/custom-nginx/general .
 ---
 #### Ответ:
-Ссылка на dockerhub-репозитории
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task1-install_docker.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task1-pull_nginx.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/docker-nginx_tag.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/docker-nginx_tag2.png)
+# Ссылка на dockerhub-репозитории
 https://hub.docker.com/r/devops2502/custom-nginx
 
 ## Задача 2
