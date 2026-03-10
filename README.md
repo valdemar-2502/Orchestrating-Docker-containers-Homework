@@ -149,6 +149,21 @@ services:
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
 
 ---
+#### Ответ:
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker2_regedit.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker_portainer2.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker3.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker4_portainer.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker5_portainer.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker6_portainer.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker7_portainer.png)
+![docker](https://github.com/valdemar-2502/Orchestrating-Docker-containers-Homework/blob/main/Screenshots/task5-docker8_portainer.png)
+
+#### Объяснение сути предупреждения:
+Docker Compose обнаружил, что в текущем проекте (определяемом файлом docker-compose.yaml, так как он теперь единственный) нет сервисов с именами portainer и registry, но контейнеры с этими именами (из предыдущего проекта) все еще существуют и работают. Compose называет их "сиротами" (orphans), так как они больше не описаны в активном Compose-файле.
+
+---
 
 ### Правила приема
 
